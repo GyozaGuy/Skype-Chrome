@@ -1,8 +1,6 @@
 chrome.app.runtime.onLaunched.addListener(function() {
-	chrome.app.window.create('index.htm', {
-		bounds: {
-			height: 650,
-			width: 1000
-		}
-	});
+	chrome.app.window.create(
+	  'index.htm',
+	  {height: 650, width: 1000}
+	);
 });
